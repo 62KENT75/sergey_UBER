@@ -602,6 +602,32 @@ footer a:hover {
   .mobile_item_subtitle {
     font-size: 20px;
   }
+  .footer_wrapper > div {
+    width: 50%;
+  }
+  .footer_wrapper > div:nth-child(1) {
+    width: 25%;
+  }
+  .footer_wrapper > div:nth-child(3) {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .footer_mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer_mobile a {
+    margin: 0 3px;
+  }
+  .footer_mobile a img {
+    width: 100%;
+  }
 }
 @media (max-width: 991px) {
   .menu_item {
